@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    font-size: 80px;
+    color: blue;
+}
+
+th {
+    text-align: center;
+}
+
+.rys1 {
+    margin: auto;
+    display: block;
+}
