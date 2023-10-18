@@ -1,11 +1,11 @@
-const image = new Image();
-image.src = 'pilka.jpg';
+// const image = new Image();
+// image.src = 'pilka.jpg';
 
-image.onclick = () => {
-    console.log(image);
+// image.onclick = () => {
+//     console.log(image);
     
-};
+// };
 
-function funkcja1() {
-    console.log(document.getElementById("rys1"));
-}
+// function kawa() {
+//     console.log(document.getElementById("rys1"));
+// }

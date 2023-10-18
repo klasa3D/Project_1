@@ -9,10 +9,63 @@
 </head>
 <body>
     <header>
-            <p>test</p>
     </header>
     <section>
-       <img id="rys1" src="pilka.jpg" alt="pilka" onclick="funkcja1()">
+       <!-- <img id="rys1" src="pilka.jpg" alt="pilka" onclick="kawa()">
+
+       <script>
+        for (let i = 1; i <= 5; i++) {
+            if (i == 1) {
+                document.write(i + 'ONE' + "<br>");
+            } else if (i < 5) {
+                document.write(i + ' ' + (i * 10) + "<br>");
+            }
+        }
+       </script> -->
+
+       <table border="1">
+        <tr>
+            <td id="c1100"></td>
+            <td id="c1101"></td>
+            <td id="c1102"></td>
+            <td id="c1103"></td>
+        </tr>
+        <tr>
+            <td id="c1110"></td>
+            <td id="c1111"></td>
+            <td id="c1112"></td>
+            <td id="c1113"></td>
+        </tr>
+        <tr>
+            <td id="c1120"></td>
+            <td id="c1121"></td>
+            <td id="c1122"></td>
+            <td id="c1122"></td>
+        </tr>
+       </table>
+       <input type="number" name="" id="liczba1">
+       <button id="przycisk">OK</button>
+       <script>
+            let tablica = [
+                [0, 0, 0, 0],
+                [0, 0, 0, 0],
+                [0, 0, 0, 0]
+            ];
+            const przycisk = document.getElementById('przycisk');
+            przycisk.addEventListener('click', function() {
+                let x = document.getElementById('liczba1').value;
+                console.log(x);
+                const liczba = 4;
+                const srodekX = Math.floor(tablica[0].length / 2);
+                const srodekY = Math.floor(tablica[0].length / 2);
+
+                tablica[srodekX][srodekY] += liczba;
+                document.getElementById('c' + srodekY + srodekX).textContent = tablica[srodekY][srodekX];
+            });
+            // function(){
+                
+            // }
+       </script>
       
     </section>
    
