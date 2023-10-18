@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tablice</title>
 </head>
 <body>
+    <input type="number" id="num">
     
+    <script>
+        
+        // let tab = [a]
+        
+        let x = document.getElementById("num").value;
+
+        function wyp(){
+        console.log(x);
+        }
+
+        let tab = [x, x, x, x];
+
+        console.log(tab[0] + tab[1] + tab[2] + tab[3]);
+
+    </script>
+
+    <input type="submit" value="ok" onclick="wyp()">
+
 </body>
 </html>
