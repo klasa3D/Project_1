@@ -5,4 +5,5 @@ function hello(id) {
 
 function hello2(txt, id) {
   let txt1 = document.getElementById("hello1").value;
+  document.write(hello1.value);
 }
